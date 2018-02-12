@@ -1,6 +1,6 @@
 FROM ubuntu
 
-LABEL maintainer="anthonyperot@gmail.com"
+LABEL maintainer="anthony@ueni.com"
 
 RUN apt-get update && \
     apt-get install -y ruby vim wget redis-tools && \
