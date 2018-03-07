@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+#!/bin/bash
 
 NODES=$(getent hosts ${REDIS_SERVICE} | awk '{ printf("%s:6379 ", $1) }')
 
